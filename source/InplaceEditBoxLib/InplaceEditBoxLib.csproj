@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.4.2.4</Version>
-    <AssemblyVersion>1.4.2.4</AssemblyVersion>
-    <FileVersion>1.4.2.4</FileVersion>
+    <Version>1.4.2.6</Version>
+    <AssemblyVersion>1.4.2.6</AssemblyVersion>
+    <FileVersion>1.4.2.6</FileVersion>
     <Company>Open Source</Company>
     <Product>InplaceEditBoxLib</Product>
     <Copyright>2014-2022</Copyright>
