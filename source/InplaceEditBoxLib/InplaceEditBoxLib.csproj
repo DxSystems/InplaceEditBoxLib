@@ -14,7 +14,7 @@
     <PackageId>Dirkster.InplaceEditBoxLib</PackageId>
     <Authors>https://github.com/Dirkster99/InplaceEditBoxLib</Authors>
 
-    <TargetFrameworks>net452;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net452;netcoreapp3.0;net6.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
 
     <PackageProjectUrl>https://github.com/Dirkster99/InplaceEditBoxLib</PackageProjectUrl>
