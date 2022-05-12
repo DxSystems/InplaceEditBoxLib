@@ -2,16 +2,16 @@
 
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.4.2</Version>
-    <AssemblyVersion>1.4.2.0</AssemblyVersion>
-    <FileVersion>1.4.2.0</FileVersion>
+    <Version>1.4.2.1</Version>
+    <AssemblyVersion>1.4.2.1</AssemblyVersion>
+    <FileVersion>1.4.2.1</FileVersion>
     <Company>Open Source</Company>
     <Product>InplaceEditBoxLib</Product>
     <Copyright>2014-2022</Copyright>
     <Description>InplaceEditBoxLib provides a WPF overlay textbox control</Description>
     <PackageProjectUrl>https://github.com/Dirkster99/InplaceEditBoxLib</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Dirkster99/InplaceEditBoxLib</RepositoryUrl>
-    <PackageId>Dirkster.InplaceEditBoxLib</PackageId>
+    <PackageId>DxSystems.InplaceEditBoxLib</PackageId>
     <Authors>https://github.com/Dirkster99/InplaceEditBoxLib</Authors>
 
     <TargetFrameworks>net452;netcoreapp3.0;net6.0-windows</TargetFrameworks>
@@ -19,7 +19,6 @@
 
     <PackageProjectUrl>https://github.com/Dirkster99/InplaceEditBoxLib</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Dirkster99/InplaceEditBoxLib</RepositoryUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/Dirkster99/InplaceEditBoxLib/master/SwitchToDesignMode_64x.png</PackageIconUrl>
     <PackageTags>wpf inplace-edit text overlay mvvm c# .net metro black light themed control library</PackageTags>
     <PackageReleaseNotes>Add rename canceled command to notify when the user has canceled editing text</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>

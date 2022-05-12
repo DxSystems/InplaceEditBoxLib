@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>InPlaceEditBoxDemo</ActiveDebugProfile>
-    <ActiveDebugFramework>net461</ActiveDebugFramework>
+    <ActiveDebugFramework>net6.0-windows</ActiveDebugFramework>
   </PropertyGroup>
 </Project>
