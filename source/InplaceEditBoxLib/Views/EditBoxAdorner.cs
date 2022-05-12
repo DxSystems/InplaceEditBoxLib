@@ -118,7 +118,7 @@ namespace InplaceEditBoxLib.Views
         {
             _IsVisible = isVisible;
             InvalidateMeasure();
-            _TextBoxMaxWidth = double.PositiveInfinity;
+            _TextBoxMaxWidth = _EditBox.MaxWidth;
         }
 
         /// <summary>
