@@ -718,7 +718,7 @@ namespace InplaceEditBoxLib.Views
         /// </summary>
         private void OnTextBoxLostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
-            this.OnSwitchToNormalMode();
+            this.OnSwitchToNormalMode(!RenameWhenClickOutside);
         }
 
         /// <summary>
@@ -728,7 +728,7 @@ namespace InplaceEditBoxLib.Views
         /// <param name="e"></param>
         private void OnLostFocus(object sender, RoutedEventArgs e)
         {
-            this.OnSwitchToNormalMode();
+            this.OnSwitchToNormalMode(!RenameWhenClickOutside);
         }
         #endregion textbox events
 
@@ -988,8 +988,7 @@ namespace InplaceEditBoxLib.Views
         {
             e.Handled = true;
 
-            var cancelEdit = !RenameWhenClickOutside;
-            OnSwitchToNormalMode(cancelEdit);
+            OnSwitchToNormalMode(!RenameWhenClickOutside);
         }
         #endregion methods
     }

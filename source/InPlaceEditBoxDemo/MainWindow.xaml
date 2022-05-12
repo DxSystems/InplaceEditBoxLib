@@ -127,7 +127,7 @@
                                              Text="{Binding Path=DisplayName, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
                                              ToolTip="{Binding Description, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
                                              Focusable="True"
-                                    
+                                    RenameWhenClickOutside="True"
                                              VerticalAlignment="Stretch"
                                              HorizontalAlignment="Left"
                                              IsReadOnly="{Binding IsReadOnly}"
