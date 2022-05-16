@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.4.2.6</Version>
-    <AssemblyVersion>1.4.2.6</AssemblyVersion>
-    <FileVersion>1.4.2.6</FileVersion>
+    <Version>1.4.2.7</Version>
+    <AssemblyVersion>1.4.2.7</AssemblyVersion>
+    <FileVersion>1.4.2.7</FileVersion>
     <Company>Open Source</Company>
     <Product>InplaceEditBoxLib</Product>
     <Copyright>2014-2022</Copyright>
@@ -14,7 +14,7 @@
     <PackageId>DxSystems.InplaceEditBoxLib</PackageId>
     <Authors>https://github.com/Dirkster99/InplaceEditBoxLib</Authors>
 
-    <TargetFrameworks>net452;netcoreapp3.0;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
 
     <PackageProjectUrl>https://github.com/Dirkster99/InplaceEditBoxLib</PackageProjectUrl>
